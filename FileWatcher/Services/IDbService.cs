@@ -8,10 +8,10 @@ namespace FileWatcher.Services
 {
     public interface IDbService
     {
-        public Task<List<FileOperationLog>> GetFileOperationItemsAsync(int pageIndex, int pageSize);
-        public Task<int> GetFileOperationItemCountsAsync();
-        public Task<int> GetFileOperationTimeCountsAsync();
-        public Task<List<FileOperationTimes>> GetFileOperationTimesAsync(int pageIndex, int pageSize);
-        public Task<int> InsertFileOperationLogAsync(FileOperationLog log);
+         Task<List<FileOperationLog>> GetFileOperationItemsAsync(int pageIndex, int pageSize);
+         Task<int> GetFileOperationItemCountsAsync();
+         Task<int> GetFileOperationTimeCountsAsync();
+         Task<List<FileOperationTimes>> GetFileOperationTimesAsync(int pageIndex, int pageSize);
+         Task<int> InsertFileOperationLogAsync(FileOperationLog log);
     }
 }

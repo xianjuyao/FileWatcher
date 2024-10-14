@@ -261,7 +261,7 @@ namespace FileWatcher.ViewModels
             {
                 var message = $@"File {e.FullPath} deleted";
                 App.Current.Dispatcher.InvokeAsync(() => Log.Info(message));
-                _dbService.InsertFileOperationLogAsync(new FileOperationLog(OperationType.delete, message));
+                _dbService.InsertFileOperationLogAsync(new FileOperationLog(OperationType.deleted, message));
                 InitData();
             });
         }

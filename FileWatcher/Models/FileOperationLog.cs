@@ -28,7 +28,7 @@ namespace FileWatcher.Models
     {
         public const string created = "created";
         public const string renamed = "renamed";
-        public const string delete = "delete";
+        public const string deleted = "deleted";
         public const string changed = "changed";
     }
 }
