@@ -104,14 +104,12 @@
         <Compile Include="Services\IDbService.cs" />
         <Compile Include="Services\IDialogService.cs" />
         <Compile Include="ViewModels\MainViewModel.cs" />
-        <Compile Include="Views\CustomControl.xaml.cs" />
         <Compile Include="Views\MainWindow.xaml.cs" />
         <Compile Include="Views\ScrollingListBox.cs" />
         <Compile Include="App.xaml.cs">
             <DependentUpon>App.xaml</DependentUpon>
             <SubType>Code</SubType>
         </Compile>
-        <Page Include="Views\CustomControl.xaml" />
         <Page Include="Views\MainWindow.xaml" />
     </ItemGroup>
     <ItemGroup>
