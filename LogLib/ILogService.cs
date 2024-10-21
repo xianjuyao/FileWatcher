@@ -4,6 +4,7 @@ namespace LogLib
 {
     public interface ILogService
     {
+
        //普通
         void Info(string message);
         //警告

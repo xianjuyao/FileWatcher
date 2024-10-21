@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "E:\\C#\\FileWatcher\\FileWatcher\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F39E488F-479A-4247-9001-905C2298ACC6}|..\\LogLib\\LogLib.csproj|e:\\c#\\filewatcher\\loglib\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|e:\\c#\\filewatcher\\filewatcher\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|e:\\c#\\filewatcher\\filewatcher\\models\\fileoperationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|solutionrelative:models\\fileoperationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|e:\\c#\\filewatcher\\filewatcher\\models\\fileoperationtimes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|solutionrelative:models\\fileoperationtimes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F39E488F-479A-4247-9001-905C2298ACC6}|..\\LogLib\\LogLib.csproj|e:\\c#\\filewatcher\\loglib\\consolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F39E488F-479A-4247-9001-905C2298ACC6}|..\\LogLib\\LogLib.csproj|e:\\c#\\filewatcher\\loglib\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F39E488F-479A-4247-9001-905C2298ACC6}|..\\LogLib\\LogLib.csproj|e:\\c#\\filewatcher\\loglib\\logitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F39E488F-479A-4247-9001-905C2298ACC6}|..\\LogLib\\LogLib.csproj|e:\\c#\\filewatcher\\loglib\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F39E488F-479A-4247-9001-905C2298ACC6}|..\\LogLib\\LogLib.csproj|e:\\c#\\filewatcher\\loglib\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F39E488F-479A-4247-9001-905C2298ACC6}|..\\LogLib\\LogLib.csproj|e:\\c#\\filewatcher\\loglib\\loglevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|E:\\C#\\FileWatcher\\FileWatcher\\models\\fileoperationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|solutionrelative:models\\fileoperationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|E:\\C#\\FileWatcher\\FileWatcher\\models\\fileoperationtimes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC591D51-A250-4D1A-9AF9-EFA557FA5537}|FileWatcher.csproj|solutionrelative:models\\fileoperationtimes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39E488F-479A-4247-9001-905C2298ACC6}|..\\LogLib\\LogLib.csproj|e:\\c#\\filewatcher\\loglib\\consolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,24 +37,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "E:\\C#\\FileWatcher\\FileWatcher\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "E:\\C#\\FileWatcher\\FileWatcher\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAPQAAAAAAAAAAAAqwP8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:01:25.325Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FileOperationTimes.cs",
               "DocumentMoniker": "E:\\C#\\FileWatcher\\FileWatcher\\Models\\FileOperationTimes.cs",
               "RelativeDocumentMoniker": "Models\\FileOperationTimes.cs",
@@ -62,12 +53,11 @@
               "RelativeToolTip": "Models\\FileOperationTimes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:00:44.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T08:00:44.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ConsoleManager.cs",
               "DocumentMoniker": "E:\\C#\\FileWatcher\\LogLib\\ConsoleManager.cs",
               "RelativeDocumentMoniker": "..\\LogLib\\ConsoleManager.cs",
@@ -75,12 +65,11 @@
               "RelativeToolTip": "..\\LogLib\\ConsoleManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:00:32.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T08:00:32.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ILogService.cs",
               "DocumentMoniker": "E:\\C#\\FileWatcher\\LogLib\\ILogService.cs",
               "RelativeDocumentMoniker": "..\\LogLib\\ILogService.cs",
@@ -93,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "LogItem.cs",
               "DocumentMoniker": "E:\\C#\\FileWatcher\\LogLib\\LogItem.cs",
               "RelativeDocumentMoniker": "..\\LogLib\\LogItem.cs",
@@ -106,20 +95,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "LogService.cs",
               "DocumentMoniker": "E:\\C#\\FileWatcher\\LogLib\\LogService.cs",
               "RelativeDocumentMoniker": "..\\LogLib\\LogService.cs",
               "ToolTip": "E:\\C#\\FileWatcher\\LogLib\\LogService.cs",
               "RelativeToolTip": "..\\LogLib\\LogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T08:00:28.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "E:\\C#\\FileWatcher\\FileWatcher\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "E:\\C#\\FileWatcher\\FileWatcher\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAALIBAAAAAAAAAAAswMQBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:01:25.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LogLevel.cs",
               "DocumentMoniker": "E:\\C#\\FileWatcher\\LogLib\\LogLevel.cs",
               "RelativeDocumentMoniker": "..\\LogLib\\LogLevel.cs",
@@ -132,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FileOperationLog.cs",
               "DocumentMoniker": "E:\\C#\\FileWatcher\\FileWatcher\\Models\\FileOperationLog.cs",
               "RelativeDocumentMoniker": "Models\\FileOperationLog.cs",

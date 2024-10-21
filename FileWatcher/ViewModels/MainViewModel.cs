@@ -157,6 +157,7 @@ namespace FileWatcher.ViewModels
             _dbService = dbService;
             LogList = Log.GetLogList();
             Log.Info("Application Init Complete");
+            Log.Debug($"main thread id is {Thread.CurrentThread.ManagedThreadId}");
             fileSystemWatcher = new FileSystemWatcher();
             FileOperationLogs = new ObservableCollection<FileOperationLog>();
             FileOperationTimes = new ObservableCollection<FileOperationTimes>();
@@ -249,7 +250,7 @@ namespace FileWatcher.ViewModels
             HandleError(() =>
             {
                 var message = $@"File {e.OldFullPath} renamed to {e.FullPath}";
-                App.Current.Dispatcher.InvokeAsync(() => Log.Info(message));
+                Log.Info(message);
                 _dbService.InsertFileOperationLogAsync(new FileOperationLog(OperationType.renamed, message));
                 InitData();
             });
@@ -260,7 +261,7 @@ namespace FileWatcher.ViewModels
             HandleError(() =>
             {
                 var message = $@"File {e.FullPath} deleted";
-                App.Current.Dispatcher.InvokeAsync(() => Log.Info(message));
+                Log.Info(message);
                 _dbService.InsertFileOperationLogAsync(new FileOperationLog(OperationType.deleted, message));
                 InitData();
             });
@@ -301,15 +302,13 @@ namespace FileWatcher.ViewModels
                 File.Copy(_lastFilePath, targetFileInfo.FullName, true);
                 var message = $"{sourceFileInfo.FullName} was changed copy to {targetFileInfo.FullName}.";
                 //插入数据库
-                App.Current.Dispatcher.InvokeAsync(() =>
-                    Log.Info(message));
+                 Log.Info(message);
                 _dbService.InsertFileOperationLogAsync(new FileOperationLog(OperationType.changed, message));
                 InitData();
             }
             catch (Exception ex)
             {
-                App.Current.Dispatcher.InvokeAsync(() =>
-                    Log.Error(ex.Message));
+                    Log.Error(ex.Message);
             }
             finally
             {
@@ -326,7 +325,7 @@ namespace FileWatcher.ViewModels
                 if (!CheckPathInit()) return;
                 var targetFilePath = Path.Combine(_targetFilePath, e.Name);
                 var message = $"Copying file {e.FullPath} into {targetFilePath}";
-                App.Current.Dispatcher.InvokeAsync(() => Log.Info(message));
+                Log.Info(message);
                 _dbService.InsertFileOperationLogAsync(new FileOperationLog(OperationType.created, message));
                 InitData();
                 File.Copy(e.FullPath, targetFilePath, true);
@@ -428,7 +427,7 @@ namespace FileWatcher.ViewModels
             }
             catch (Exception e)
             {
-                App.Current.Dispatcher.InvokeAsync(() => Log.Error(e.Message));
+                Log.Error(e.Message);
             }
         }
 
