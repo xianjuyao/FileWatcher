@@ -26,13 +26,11 @@ E:\C#\FileWatcher\FileWatcher\bin\Debug\System.Memory.xml
 E:\C#\FileWatcher\FileWatcher\bin\Debug\System.Numerics.Vectors.xml
 E:\C#\FileWatcher\FileWatcher\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\C#\FileWatcher\FileWatcher\bin\Debug\System.Threading.Tasks.Extensions.xml
-E:\C#\FileWatcher\FileWatcher\obj\Debug\Views\CustomControl.g.cs
 E:\C#\FileWatcher\FileWatcher\obj\Debug\Views\MainWindow.g.cs
 E:\C#\FileWatcher\FileWatcher\obj\Debug\App.g.cs
 E:\C#\FileWatcher\FileWatcher\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher_MarkupCompile.cache
 E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher_MarkupCompile.lref
-E:\C#\FileWatcher\FileWatcher\obj\Debug\Views\CustomControl.baml
 E:\C#\FileWatcher\FileWatcher\obj\Debug\Views\MainWindow.baml
 E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher.g.resources
 E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher.Properties.Resources.resources
@@ -40,5 +38,5 @@ E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.GenerateResource.cach
 E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.CoreCompileInputs.cache
 E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher.exe
 E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher.pdb
-E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csprojAssemblyReference.cache
-E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.CopyComplete
+E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.AssemblyReference.cache
+E:\C#\FileWatcher\FileWatcher\obj\Debug\FileWatc.D3F63814.Up2Date

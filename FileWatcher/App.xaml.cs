@@ -11,7 +11,7 @@ namespace FileWatcher
 {
     public sealed partial class App : Application
     {
-        private static readonly string connStr = ConfigurationManager.ConnectionStrings["connStr"].ConnectionString;
+        private static readonly string ConnStr = ConfigurationManager.ConnectionStrings["connStr"].ConnectionString;
 
         public App()
         {
@@ -32,7 +32,7 @@ namespace FileWatcher
                 var sqlSugar = new SqlSugarScope(new ConnectionConfig
                     {
                         DbType = DbType.SqlServer,
-                        ConnectionString = connStr,
+                        ConnectionString = ConnStr,
                         IsAutoCloseConnection = true
                     },
                     db =>

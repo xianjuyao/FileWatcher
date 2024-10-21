@@ -18,5 +18,6 @@ namespace FileWatcher.Views
 
             base.OnItemsChanged(e);
         }
+        
     }
 }
